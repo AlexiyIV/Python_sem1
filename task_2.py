@@ -6,9 +6,9 @@ nc = int(input('введите количество журавликов '))
 p = 0
 c = 0
 s = 0
-if (nc/2)%2 == 0:
-    c = int(nc / 2)
-    s = int(c / 2)
+if (nc/3)%2 == 0:
+    c = int((nc / 3) * 2)
+    s = int(nc / 6)
     p = s
     print(p, c, s)
 else:
